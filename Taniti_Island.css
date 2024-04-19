@@ -1,0 +1,244 @@
+﻿body {
+    background-color: black;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: white;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+/* Top Header Background */
+.aqua {
+    float: left;
+    width: 100%;
+    padding: 0;
+    background-image: url("blue-beach-waves2.jpg");
+    background-size: cover;
+    /*background-color: mediumaquamarine; */
+}
+
+/* Top Header Icon Logo */
+.column1 {
+    float: left;
+    width: 11%;
+    padding: 5px;
+}
+
+/* Top Header Title */
+.column2 {
+    float: left;
+    width: 74%;
+    padding: 20px 0 0 80px;
+}
+
+div.bodytext {
+    width: 500px;
+}
+
+div.bodytext2 {
+    height: 365px;
+    width: 945px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.rightjustifiedpalmtree {
+    height: 365px;
+    width: 14%;
+    background-image: url('warm-sun-palmtrees6.jpg');
+    background-size: cover;
+    margin: 0 0 0 14.5px;
+}
+
+/* Left-Side Bar Primary Navigation */
+.sidenav {
+    height: 365px;
+    width: 14%;
+    background-image: url('warm-sun-palmtrees2.jpg');
+    background-size: cover;
+    /* background-color: #671706; */
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 10px;
+    text-decoration: none;
+    font-size: 23px;
+    color: deepskyblue;
+    display: block;
+    margin: 0 0 20px 15px;
+}
+
+.sidenav a:hover {
+    color: white;
+    /* color: #f1f1f1; */
+}
+
+/* Text Properties: */
+
+/* Use this for corporate slogan / tagline in footer */
+h3 {
+    font-family: "Open Sans Light", sans-serif;
+    font-style: italic;
+    font-weight: 200;
+    font-size: 2em;
+    margin: .45em 0;
+    color: #BDBDBD; /* Secondary Color -- Silver */
+    text-align: center;
+    -webkit-text-stroke: .25px black;
+    text-shadow: 2px 2px black;
+}
+
+/* Use this for main title header */
+h4 {
+    font-family: "Island Moments";
+    font-style: italic;
+    font-weight: 500;
+    font-size: 6em;
+    margin: .09em;
+    text-align: center;
+    letter-spacing: 25px;
+    color: deepskyblue;
+}
+
+/* Use this for the top and bottom border lines across page */
+hr {
+    margin: 0 0 0 0;
+    border-top-width: 9px;
+    width: 100%;
+    border-color: black;
+}
+
+/* Use this for article text content headings */
+h2 {
+    font-family: "Open Sans Light", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2em;
+    color: black;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+/* Use this for main text content for all pages */
+p {
+    font-family: "Open Sans Light", sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 1.5em;
+    color: black;
+    text-align: left;
+    margin-left: 20px;
+}
+
+ul {
+    font-family: "Open Sans Light", sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 1em;
+    color: black;
+    text-align: left;
+    margin-left: 20px;
+}
+
+ul li {
+    margin: 7px;
+}
+
+/* Photo Captions */
+figcaption a {
+    font-family: "Open Sans Light", sans-serif;
+    font-size: 1em;
+    color: #BDBDBD; /* Secondary Color -- Dim Gray */
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    margin: 6px 0 0 0;
+    -webkit-text-stroke: .25px black;
+    text-shadow: 1.25px 1.25px black;
+    text-decoration: none;
+    display: block;
+}
+
+figcaption a:hover {
+    color: #f1f1f1;
+}
+
+/* Footer Style */
+footer {
+    height: 270px;
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 10px;
+    vertical-align: text-bottom;
+    text-align: center;
+    background-image: url("sand2.jpg");
+    background-size: cover;
+}
+
+.footer a {
+    padding: 20px 8px 6px 30px;
+    text-decoration: none;
+    font-size: 23px;
+    color: deepskyblue;
+    display: block;
+    margin: 0 0 0 0;
+}
+
+.footer a:hover {
+    /* color: #f1f1f1; White Smoke */
+    color: black;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.columnrec {
+    float: left;
+    width: 16.66%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.rowrec::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Hover Effect */
+figure {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+figure:hover + span {
+    bottom: -36px;
+    opacity: 1;
+}
+
+/* Opacity #11 */
+.hover11 figure img {
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.hover11 figure:hover img {
+    opacity: .5;
+}
